@@ -1,6 +1,6 @@
 # 🛠️ Palantir Foundry — Learning & Prep
 
-> Pre-hackathon preparation for **Hack4Future Sicily 2025**  
+> Pre-hackathon preparation for **Hack4Future Sicily 2025**
 > Platform: [Palantir AIP / Open Data Playground](https://www.palantir.com/platforms/foundry/)
 
 ---
@@ -57,13 +57,13 @@ def bike_trips_clean(bike_trips):
 
     # Filter invalid records
     processed_df = bike_trips[
-        (~bike_trips['EndTime'].isnull()) & (bike_trips['EndTime'] >= ...)
+        (~bike_trips['EndTime'].isnull()) & (bike_trips['EndTime'] >= bike_trips['StartTime'])
     ]
 
     # Filter to keep only rows where both StartStation and EndStation are not null or empty
-    filtered_df = bike_trips[
-        (~bike_trips['StartStation'].isnull()) & (bike_trips['StartStation'].str.strip() != '') &
-        (~bike_trips['EndStation'].isnull()) & (bike_trips['EndStation'].str.strip() != '')
+    filtered_df = processed_df[
+        (~processed_df['StartStation'].isnull()) & (processed_df['StartStation'].str.strip() != '') &
+        (~processed_df['EndStation'].isnull()) & (processed_df['EndStation'].str.strip() != '')
     ]
 
     # Select required columns
@@ -74,10 +74,10 @@ def bike_trips_clean(bike_trips):
 
 ### Build output
 
-![Build success](screenshots/build_success.png)
+![Build success](screenshots/build_success.jpeg)
 *Build completed successfully — 311 rows, 5 columns*
 
-![Pipeline build progress](screenshots/build_progress.png)
+![Pipeline build progress](screenshots/build_progress.jpeg)
 *Build progress: Starting → Spark → Running → Finished*
 
 ---
@@ -97,7 +97,7 @@ def bike_trips_clean(bike_trips):
 
 | Module Overview | Build in Progress | Build Succeeded |
 |---|---|---|
-| ![modules](screenshots/modules_overview.png) | ![progress](screenshots/build_progress.png) | ![success](screenshots/build_success.png) |
+| ![modules](screenshots/modules_overview.jpeg) | ![progress](screenshots/build_progress.jpeg) | ![success](screenshots/build_success.jpeg) |
 
 > Screenshots taken from Palantir Open Data Playground (opendataplayground.palantirfoundry.com)
 
