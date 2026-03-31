@@ -7,7 +7,7 @@
 
 ## About
 
-This repository documents my hands-on preparation with **Palantir Foundry** ahead of Hack4Future Sicily 2025 — a national hackathon focused on data-driven innovation.
+This repository documents my hands-on preparation with **Palantir Foundry** ahead of Hack4Future Sicily 2025 — an inter-university hackathon across Sicily focused on data-driven innovation.
 
 Over ~4 weeks, I worked through 10 structured learning modules on the Open Data Playground, building real pipelines, writing Python Transforms, and exploring Foundry's full data engineering stack end-to-end.
 
