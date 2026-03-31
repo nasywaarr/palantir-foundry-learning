@@ -1,6 +1,7 @@
 # 🛠️ Palantir Foundry — Learning & Prep
 
-> Pre-hackathon preparation for **Hack4Future Sicily 2025**
+> Pre-hackathon preparation for **Hack4Future Sicily 2025**.
+>
 > Platform: [Palantir AIP / Open Data Playground](https://www.palantir.com/platforms/foundry/)
 
 ---
@@ -15,15 +16,15 @@ Over ~4 weeks, I worked through 11 structured learning modules on the Open Data 
 
 ## Certifications
 
-| Certificate | Completed |
-|---|---|
-| Introduction to Foundry & AIP for Enterprise Organizations | Feb 21, 2025 |
-| Scoping Use Cases for Foundry & AIP | Feb 21, 2025 |
-| Foundry & AIP Builder Foundations Quiz | Feb 22, 2025 |
-| Deep Dive: Building Your First Pipeline | Mar 31, 2025 |
-| Deep Dive: Creating Your First Data Connection | Apr 2, 2025 |
-| Deep Dive: Data Analysis in Contour | Apr 16, 2025 |
-| Deep Dive: Data Analysis in Quiver | Apr 17, 2025 |
+| Certificate | Completed | Verify |
+|---|---|---|
+| Introduction to Foundry & AIP for Enterprise Organizations | Feb 21, 2025 | [zhk8r7qbkunv](https://verify.skilljar.com/c/zhk8r7qbkunv) |
+| Scoping Use Cases for Foundry & AIP | Feb 21, 2025 | [vwsq8seyy3id](https://verify.skilljar.com/c/vwsq8seyy3id) |
+| Foundry & AIP Builder Foundations | Feb 22, 2025 | [bg6dyp4aedce](https://verify.skilljar.com/c/bg6dyp4aedce) |
+| Deep Dive: Building Your First Pipeline | Mar 31, 2025 | [ddgubcpgckhr](https://verify.skilljar.com/c/ddgubcpgckhr) |
+| Deep Dive: Creating Your First Data Connection | Apr 2, 2025 | [6i2a2zocyzsv](https://verify.skilljar.com/c/6i2a2zocyzsv) |
+| Deep Dive: Data Analysis in Contour | Apr 16, 2025 | [ftzw5uhd6sxn](https://verify.skilljar.com/c/ftzw5uhd6sxn) |
+| Deep Dive: Data Analysis in Quiver | Apr 17, 2025 | [4ydrqgvjsjno](https://verify.skilljar.com/c/4ydrqgvjsjno) |
 
 ---
 
@@ -47,11 +48,11 @@ Over ~4 weeks, I worked through 11 structured learning modules on the Open Data 
 
 ### Example Build output
 
-![Build success](screenshots/build_success.jpeg)
-*Build completed successfully — 311 rows, 5 columns*
-
 ![Pipeline build progress](screenshots/build_progress.jpeg)
 *Build progress: Starting → Spark → Running → Finished*
+
+![Build success](screenshots/build_success.jpeg)
+*Build completed successfully — 311 rows, 5 columns*
 
 ---
 
